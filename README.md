@@ -11,7 +11,5 @@ Transformar a prática jurídica por meio da tecnologia, oferecendo softwares in
 
 ## Equipe
 - **Wesley Gabriel** — Diretor Geral e Desenvolvedor de Back-end
-- **Raissa Nicole** — Gerente de Tecnologia e Administratora de Banco de Dados
+- **Raissa Nicole** — Gerente de Tecnologia e Administradora de Banco de Dados 
 - **Lucas Almeida** — Designer de UI/UX
-
-
