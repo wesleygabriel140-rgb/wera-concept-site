@@ -45,24 +45,24 @@ export const empresa = {
   equipe: [
     {
       nome: "Wesley Gabriel",
-      cargo: "CEO e Desenvolvedor de Back-end.",
+      cargo: "CEO e Desenvolvedor de Back-end",
       foto: "/images/wesley.jpg",
       alt: "Foto de Wesley Gabriel",
-      descricao: "Fundador da Wera Concept. Iniciou sua carreira na programação, desenvolvendo pequenos projetos e aprimorando suas habilidades em tecnologia."
+      descricao: "Fundador da Wera Concept. Iniciou sua carreira na programação, desenvolvendo pequenos projetos e aprimorando suas habilidades em tecnologia, sempre em busca de novas soluções digitais."
     },
     {
       nome: "Raissa Nicole",
-      cargo: "Gerente de Tecnologia e Administradora de Banco de Dados.",
+      cargo: "Gerente de Tecnologia e Administradora de Banco de Dados",
       foto: "/images/raissa.jpg",
       alt: "Foto de Raissa Nicole",
       descricao: "Cofundadora Da Wera Concept. Começou sua trajetória com o objetivo de unir tecnologia e Direito, identificando a necessidade de modernizar a rotina dos profissionais jurídicos."
     },
     {
       nome: "Lucas Almeida Ferreira",
-      cargo: "Designer de UI/UX.",
+      cargo: "Designer de UI/UX",
       foto: "/images/lucas.jpg",
       alt: "Foto de Lucas Almeida",
-      descricao: "Começou sua trajetória na área de design, desenvolvendo interesse pela criação de interfaces digitais."
+      descricao: "Começou sua trajetória na área de design, desenvolvendo interesse pela criação de interfaces digitais e buscando criar experiências visuais claras e agradáveis para os usuários."
     }
   ]
 };
