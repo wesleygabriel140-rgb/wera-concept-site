@@ -1,38 +1,20 @@
-<html lang="pt-BR">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Início | Wera Concept</title>
-	</head>
-	<body>
-		<header>
-			<strong>Wera Concept</strong>
-			<nav>
-				<ul>
-					<li><a href="/">Início</a></li>
-					<li><a href="/sobre">Sobre</a></li>
-					<li><a href="/equipe">Equipe</a></li>
-					<li><a href="/contato">Contato</a></li>
-				</ul>
-			</nav>
-		</header>
+---
+import LayoutBase from '../layouts/LayoutBase.astro';
+import { empresa } from '../data/empresa.js';
+---
 
-		<main>
-			<section>
-				<h1> Soluções inteligentes para uma advocacia moderna.</h1>
-				<p>Transformar a prática jurídica por meio da tecnologia, oferecendo softwares inteligentes, seguros e eficientes que proporcionem organização, praticidade e inovação, permitindo que advogados gerenciem seus processos com mais confiança, produtividade e atenção aos detalhes.</p>
-				<a href="/contato">Fale Conosco</a>
-			</section>
+<LayoutBase 
+	titulo="Início" 
+	descricao={`Bem-vindo à ${empresa.nome}. ${empresa.slogan}`}
+>
+	<section>
+		<h1>{empresa.slogan}</h1>
+		<p>{empresa.missao}</p>
+		<a href="/contato">Fale Conosco</a>
+	</section>
 
-			<section>
-				<h2>Quem Atendemos</h2>
-				<p>Escritórios de advocacia e advogados autônomos que buscam soluções tecnológicas para otimizar a gestão de processos, clientes, prazos e atividades jurídicas..</p>
-			</section>
-		</main>
-
-		<footer>
-			<p>&copy; 2026 Wera Concept. Todos os direitos reservados.</p>
-		</footer>
-	</body>
-</html>
+	<section>
+		<h2>Quem Atendemos</h2>
+		<p>{empresa.publicoAlvo}</p>
+	</section>
+</LayoutBase>
